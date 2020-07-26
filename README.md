@@ -2,21 +2,21 @@
   &copy; Mozilla Public 2.0
 
   ## Description
-  This is paragraph one.  This is paragraph two.  This is paragraph three.
+  Paragraph one / Paragraph Two /
 
   ## Table of Contents
-  *[Installation](#Installation)
-  *[Usage](#Usage)
-  *[License](#License)
-  *[Contributing](#Contributing)
-  *[Tests](#Tests)
-  *[Questions](#Questions)
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
     
   ## Installation
-  *Step 1. *Step 2. *Step 3.
+  * Step 1. * Step 2.
 
   ## Usage
-  Here are examples of usage
+  Examples of usage
 
   ## License
   To view open source licenses, visit [https://choosealicense.com/licenses/](https://choosealicense.com/licenses/)
@@ -25,7 +25,7 @@
   ## Contributing
         
   ## Tests
-  Here is a test of how to run my application...
+  Here is a test of my application. You can do the following...
 
   ## Questions
   For any following questions feel free to contact me at:
