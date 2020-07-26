@@ -2,7 +2,7 @@
   &copy; Mozilla Public 2.0
 
   ## Description
-  Paragraph one / Paragraph Two /
+  Paragraph One/ Paragraph Two/
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -13,7 +13,7 @@
   * [Questions](#Questions)
     
   ## Installation
-  * Step 1. * Step 2.
+  * Step 1./ *Step 2./ *Step 3.
 
   ## Usage
   Examples of usage
@@ -25,10 +25,12 @@
   ## Contributing
         
   ## Tests
-  Here is a test of my application. You can do the following...
+  Here is a test to run my app! Follow these steps...
 
   ## Questions
   For any following questions feel free to contact me at:
   My GitHub page is [https://github.com/AlexsisMCB](https://github.com/AlexsisMCB)
   [alexsismcb@gmail.com](alexsismcb@gmail.com)
+  
+
   
