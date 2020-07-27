@@ -30,4 +30,4 @@ Here you can give a test app in steps for how to work the app. Or simply provide
 ## Questions
 For any following questions feel free to contact me at:
 My GitHub page is [https://github.com/AlexsisMCB](https://github.com/AlexsisMCB)
-[alexsismcb@gmail.com](alexsismcb@gmail.com)
+Email address: [alexsismcb@gmail.com](alexsismcb@gmail.com)
