@@ -20,7 +20,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Give a description of your project (Required)",
+        message: "Give a description of your project. (Required)",
         validate: descriptionInput => {
             if (descriptionInput) {
                 return true;
@@ -64,41 +64,55 @@ const questions = [
     },
     {
         type: "input",
+        name: "contribution",
+        message: "Provide rules or guidelines for the process for contributing to your project",
+    },
+    {
+        type: "input",
         name: "tests",
-        message: "Tests?"
+        message: "Write a test of how to run your application!"
     },
     {
         type: "input",
         name: "username",
-        message: "What's your github username?"
+        message: "What's your github username?",
+        validate: usernameInput => {
+            if (usernameInput) {
+                return true;
+            } else {
+                console.log("Please give username!");
+                return false;
+            }
+        }
     },
     {
         type: "input",
         name: "email",
-        message: "What's your email address?"
+        message: "What's your email address?",
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log("Please give email address!");
+                return false;
+            }
+        }
     }
 ];
 
 // function to write README file
 
-const writeToFile = readmeFileContent => {
+function writeToFile(data) {
     return new Promise((resolve, reject) => {
-        fs.writeFile("./dist/readme.md", readmeFileContent, err => {
+        fs.writeFile("./dist/readme.md", data, err => {
             if (err) {
                 reject(err);
                 return;
-            } resolve ({
-                ok: true,
-                message: 'File created!'
-            });
+            } 
+            resolve ("Success");
         })
     })
 }
-//function writeToFile(readme, data) {
-    //if (!data) {
-    //    return;
-    //}
-//}
 
 // function to initialize program
 const init = () => {
