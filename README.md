@@ -16,7 +16,7 @@ This program creates a readme file just for YOU! Once the program is downloaded 
 To install, first clone the repo. Open the file in your terminal. Make sure to type 'npm install' to install the software used for my program. Next you can simply start the questionnaire by typing 'node index' or 'node index.js'.
 
 ## Usage
-Examples of usage are right here: [https://drive.google.com/file/d/1kF7N58y8Gkm5SdECpMR0FcXYbm75TA-a/view](https://drive.google.com/file/d/1kF7N58y8Gkm5SdECpMR0FcXYbm75TA-a/view)
+Examples of usage are right here: ! [Here's a demo video of the process](https://drive.google.com/file/d/1kF7N58y8Gkm5SdECpMR0FcXYbm75TA-a/view)
 
 ## License
 To view open source licenses, visit [https://choosealicense.com/licenses/](https://choosealicense.com/licenses/)
